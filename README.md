@@ -1,10 +1,10 @@
-# SiskamLinked Frontend
+# SiskamLinked 
 
 **Sistem Keamanan Lingkungan Terpadu** - Aplikasi web untuk manajemen keamanan lingkungan yang menghubungkan warga dengan petugas keamanan secara real-time.
 
 ## Deskripsi
 
-SiskamLinked adalah aplikasi frontend berbasis React yang menyediakan antarmuka untuk:
+SiskamLinked adalah aplikasi berbasis React yang menyediakan antarmuka untuk:
 - **Warga**: Melaporkan kejadian darurat dan melihat petugas yang sedang bertugas
 - **Petugas**: Melakukan check-in/check-out dan menerima penugasan
 - **Admin**: Memantau laporan masuk dan menugaskan petugas ke lokasi kejadian
