@@ -28,7 +28,7 @@ export default function CheckInOut() {
 
     useEffect(() => {
         fetchData();
-        const interval = setInterval(fetchData, 30000);
+        const interval = setInterval(fetchData, 5000);
         return () => clearInterval(interval);
     }, []);
 
@@ -227,7 +227,7 @@ export default function CheckInOut() {
 
             <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-100">
                 <p className="text-sm text-blue-700">
-                Data akan otomatis diperbarui setiap 30 detik. Petugas dengan status ON DUTY telah melakukan check-in.
+                Data akan otomatis diperbarui setiap 5 detik. Petugas dengan status ON DUTY telah melakukan check-in.
                 </p>
             </div>
             </div>
